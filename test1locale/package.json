@@ -1,0 +1,24 @@
+{
+  "name": "test1locale",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@sap/cds": "^7",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1",
+    "@sap/ux-specification": "^1.120.9"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-project1": "cds watch --open project1/webapp/index.html?sap-ui-xx-viewCache=false#fe-lrop-v4",
+    "watch-project2": "cds watch --open project2/webapp/index.html?sap-ui-xx-viewCache=false#fe-lrop-v4"
+  },
+  "sapux": [
+    "app/project1",
+    "app/project2"
+  ]
+}
